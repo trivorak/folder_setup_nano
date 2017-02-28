@@ -1,1 +1,3 @@
 # folder_setup_nano
+
+Program used for a folder structure creation.
