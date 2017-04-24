@@ -1,4 +1,5 @@
 MD "Signed Inspection Reports"
-copy "C:\Users\dchampagne\Desktop\Nanosphere\source\01776 App1.xlsm" "01776 App1.xlsm"
-copy "C:\Users\dchampagne\Desktop\Nanosphere\source\Fill Me Out.xlsx" "Fill Me Out.xlsx"
+copy NUL "Drawing Suggestions.txt"
+copy "C:\Users\dchampagne\Desktop\Nanosphere\source\FAI_Form.xlsm" "FAI_Form.xlsm"
+copy "C:\Users\dchampagne\Desktop\Nanosphere\source\Fill_Me_Out.xlsx" "Fill_Me_Out.xlsx"
 del Automate.bat
