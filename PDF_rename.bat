@@ -5,4 +5,4 @@ move #1.pdf "Signed Inspection Reports"
 move #2.pdf "Signed Inspection Reports"
 move #3.pdf "Signed Inspection Reports"
 del *_Part1.pdf
-del "PDF rename.bat"
+del PDF_rename.bat
