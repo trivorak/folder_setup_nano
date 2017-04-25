@@ -25,6 +25,7 @@ make_main_dir() {
     setWorkingDir, %FileDirectory%
     FileCopy, C:\Users\dchampagne\Documents\CODE\folder_setup_nano\Automate.bat , %A_WorkingDir%\Automate.bat
     FileCopy, C:\Users\dchampagne\Documents\CODE\folder_setup_nano\cable_spec.bat , %A_WorkingDir%\cable_spec.bat
+    FileCopy, C:\Users\dchampagne\Documents\CODE\folder_setup_nano\PDF_rename.bat , %A_WorkingDir%\PDF_rename.bat
     Run, %A_WorkingDir%\Automate.bat
     Run, %A_WorkingDir%\cable_spec.bat
 }
