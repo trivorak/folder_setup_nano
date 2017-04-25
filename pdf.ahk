@@ -34,3 +34,41 @@ Return
   Send {Enter}
   Send {Enter}
 Return
+
+!z::
+KeyWait, Alt, U ; Wait until the alt key is released. 
+Send {Alt}
+sleep, 100 ; Add a slight delay between each key.
+Send {f}
+sleep, 100
+send {n}
+sleep, 100
+Send {Down}
+sleep, 100
+send {Enter}
+return
+
+!c::
+Send {F2}
+sleep, 100
+SendRaw #1
+sleep, 100
+Send {Enter}
+Send ^c
+sleep, 100
+Send ^v
+sleep, 100
+Send {F2}
+sleep, 100
+SendRaw #2
+Send {Enter}
+sleep, 100
+Send ^c
+sleep, 100
+Send ^v
+sleep, 100
+Send {F2}
+sleep, 100
+SendRaw #3
+Send {Enter}
+return
