@@ -41,9 +41,9 @@ Send {Alt}
 sleep, 100 ; Add a slight delay between each key.
 Send {f}
 sleep, 100
-send {n}
+send {7}
 sleep, 100
-Send {Down}
+Send {Up 2}
 sleep, 100
 send {Enter}
 return
@@ -72,3 +72,4 @@ sleep, 100
 SendRaw #3
 Send {Enter}
 return
+
