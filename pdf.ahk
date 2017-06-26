@@ -50,25 +50,25 @@ return
 
 !c::
 Send {F2}
-sleep, 100
+sleep, 200
 SendRaw #1
-sleep, 100
+sleep, 200
 Send {Enter}
 Send ^c
-sleep, 100
+sleep, 200
 Send ^v
-sleep, 100
+sleep, 200
 Send {F2}
-sleep, 100
+sleep, 200
 SendRaw #2
 Send {Enter}
-sleep, 100
+sleep, 200
 Send ^c
-sleep, 100
+sleep, 200
 Send ^v
-sleep, 100
+sleep, 200
 Send {F2}
-sleep, 100
+sleep, 200
 SendRaw #3
 Send {Enter}
 return
