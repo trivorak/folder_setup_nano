@@ -73,3 +73,26 @@ SendRaw #3
 Send {Enter}
 return
 
+#d::
+Send {Alt}
+sleep 100
+Send v
+sleep 100
+Send p
+sleep 100
+Send p
+return
+
+#i::
+SendRaw Inspection Required ()
+return
+
+#s::
+SendRaw Standard Receipt
+return
+
+#!1::
+SendRaw /
+SendRaw defaultgamemode creative
+Send {Enter}
+return
