@@ -84,11 +84,11 @@ Send p
 return
 
 #i::
-SendRaw Inspection Required ()
+SendRaw - Inspection Required ()
 return
 
 #s::
-SendRaw Standard Receipt
+SendRaw - Standard Receipt
 return
 
 #!1::
